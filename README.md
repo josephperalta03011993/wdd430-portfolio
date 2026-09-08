@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD 430 Portfolio
 
-## Getting Started
+A personal portfolio application built with Next.js, React, TypeScript, and Tailwind CSS for WDD 430.
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### D-TRAC
+A web-based deployment monitoring system used to track merchandiser deployment and status information.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### TRADEPAD
+An inventory management web application designed to help manage inventory and sales-related operations.
 
-## Learn More
+## Links
 
-To learn more about Next.js, take a look at the following resources:
+- Live Application: https://wdd430-portfolio-ruby.vercel.app/
+- GitHub Repository: https://github.com/josephperalta03011993/wdd430-portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Custom Component
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`SkillCard.tsx` — A reusable component that displays a technology or skill with its name and description using typed TypeScript props and Tailwind CSS.
 
-## Deploy on Vercel
+## API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application includes a simple API route:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`/api/hello`
+
+It returns a JSON response confirming that the Next.js backend API is working.
